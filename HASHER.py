@@ -176,12 +176,15 @@ while True:
             elif soru == "obf":
                 time.sleep(1)
                 obf()
-                time.sleep(1)    
-                
+                time.sleep(1) 
+            elif soru == "hexenc":
+                time.sleep(1)   
+                hexenc()
+                time.sleep(1)      
             elif soru == "special":
                 time.sleep(1)
                 Special()
-                time.sleep(1)   
+                time.sleep(1)                   
         elif secim == "2":
             time.sleep(1)
             henov = input("bs64,hexdec,decobf: ")
